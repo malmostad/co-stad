@@ -1,0 +1,239 @@
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: IE Stylesheet
+
+******************************************************************/
+/******************************************************************
+IMPORTS & DEPENDENCIES
+******************************************************************/
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: Variables
+
+******************************************************************/
+/*********************
+COLORS
+*********************/
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: Typography
+
+******************************************************************/
+/*********************
+FONT FACE
+*********************/
+/*
+some nice typographical defaults
+*/
+p {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-before: 2;
+  -webkit-hyphenate-after: 3;
+  hyphenate-lines: 3;
+  -webkit-font-feature-settings: "liga", "dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig"; }
+
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: Mixins Stylesheet
+
+******************************************************************/
+/*********************
+TRANSITION
+*********************/
+/*********************
+CSS3 GRADIENTS
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* @include box-sizing(border-box); */
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: IE Grid Styles
+
+******************************************************************/
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: 481px and Up Stylesheet
+
+******************************************************************/
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* entry content */
+.entry-content {
+  /* at this larger size, we can start to align images */ }
+  .entry-content .alignleft, .entry-content img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left; }
+  .entry-content .alignright, .entry-content img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right; }
+  .entry-content .aligncenter, .entry-content img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both; }
+
+/* end .entry-content */
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+******************************************************************/
+/*********************
+PODCAST
+*********************/
+.wpb_teaser_grid .entry-content {
+  width: 60%;
+  float: left; }
+
+.podcast .wpb_teaser_grid .entry-content {
+  width: 100%; }
+
+/*********************
+MODAL BOX
+*********************/
+.ult_modal-body img {
+  float: left;
+  margin: 0 15px 15px 0; }
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wpb_row .wpb_column {
+  padding-left: 15px;
+  padding-right: 15px; }
+  .wpb_row .wpb_column:first-child {
+    padding-left: 0; }
+  .wpb_row .wpb_column:last-child {
+    padding-right: 0; }
+
+/*********************
+LINK STYLES
+*********************/
+.nav-box {
+  text-align: center; }
+  .nav-box .wpb_column {
+    padding-left: 0.125em;
+    padding-right: 0.125em; }
+    .nav-box .wpb_column:first-child {
+      padding-left: 0; }
+    .nav-box .wpb_column:last-child {
+      padding-right: 0; }
+
+/*********************
+NAVIGATION STYLES
+*********************/
+.nav {
+  border: 0;
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */ }
+  .nav ul {
+    background: #323944;
+    margin-top: 0; }
+  .nav li {
+    float: left;
+    position: relative;
+    /*
+    plan your menus and drop-downs wisely.
+    */
+    /* showing sub-menus */ }
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+      margin-top: 0;
+      border: 1px solid #ccc;
+      border-top: 0;
+      position: absolute;
+      visibility: hidden;
+      z-index: 8999;
+      /* highlight sub-menu current page */ }
+      .nav li ul.sub-menu li,
+      .nav li ul.children li {
+        /*
+        if you need to go deeper, go nuts
+        just remember deeper menus suck
+        for usability. k, bai.
+        */ }
+        .nav li ul.sub-menu li a,
+        .nav li ul.children li a {
+          padding-left: 10px;
+          border-right: 0;
+          display: block;
+          width: 180px;
+          border-bottom: 1px solid #ccc; }
+        .nav li ul.sub-menu li:last-child a,
+        .nav li ul.children li:last-child a {
+          border-bottom: 0; }
+        .nav li ul.sub-menu li ul,
+        .nav li ul.children li ul {
+          top: 0;
+          left: 100%; }
+    .nav li:hover > ul {
+      top: auto;
+      visibility: visible; }
+
+/* end .nav */
+/*********************
+SIDEBARS & ASIDES
+*********************/
+.sidebar {
+  margin-top: 0;
+  float: right; }
+
+.widget {
+  padding: 0 10px;
+  margin-bottom: 2.2em; }
+  .widget ul li {
+    margin-bottom: 0.75em;
+    /* deep nesting */ }
+    .widget ul li ul {
+      margin-top: 0.75em;
+      padding-left: 1em; }
+
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: Desktop Stylsheet
+
+******************************************************************/
+.wpb_row {
+  max-width: 55em; }
+
+#breadcrumbs {
+  max-width: 55em; }
+
+/*********************
+LINK STYLES
+*********************/
+.nav-box .wpb_column a {
+  font-size: 1em; }
+
+/*# sourceMappingURL=ie.css.map */

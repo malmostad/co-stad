@@ -1,0 +1,8 @@
+.m-share a {
+  display: inline-block;
+  width: emize(30);
+  height: emize(30);
+  margin-right: .4em;
+  background-size: 26px; }
+  .m-share a:hover {
+    text-decoration: none; }
