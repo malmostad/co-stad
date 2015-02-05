@@ -1,0 +1,19 @@
+@media (max-width: 46em) {
+  body.touch select,
+  body.touch option,
+  body.touch textarea,
+  body.touch input[type='text'],
+  body.touch input[type='password'],
+  body.touch input[type='datetime'],
+  body.touch input[type='datetime-local'],
+  body.touch input[type='date'],
+  body.touch input[type='month'],
+  body.touch input[type='time'],
+  body.touch input[type='week'],
+  body.touch input[type='number'],
+  body.touch input[type='email'],
+  body.touch input[type='url'],
+  body.touch input[type='search'],
+  body.touch input[type='tel'],
+  body.touch input[type='color'] {
+    font-size: 16px !important; } }

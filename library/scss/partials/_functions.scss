@@ -1,0 +1,32 @@
+/******************************************************************
+Site Name: C/O Stad
+Author: Henrik Rosengren (http://bysted.se)
+
+Stylesheet: Sass Functions
+
+******************************************************************/
+
+/*********************
+COLOR FUNCTIONS
+*********************/
+
+// black
+@function black($opacity) {
+    @return rgba(0,0,0,$opacity);
+}
+
+// white
+@function white($opacity) {
+    @return rgba(255,255,255,$opacity);
+}
+
+/*********************
+RESPONSIVE HELPER FUNCTION
+*********************/
+
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
+@function cp($target, $container) {
+  @return calc-percent($target, $container);
+}
